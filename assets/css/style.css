@@ -1,0 +1,61 @@
+/* General */
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header */
+.navbar-brand img {
+    width: 35px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+.bg-info {
+    transition: 1000ms !important;
+}
+
+/* Main */
+.titulo {
+    font-size: 45px;
+}
+
+/* Tooltip */
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+}
+
+/* Card */
+.card-title,
+.modal-title {
+    font-size: 21px;
+}
+
+.bg-h {
+    transition: 600ms;
+}
+
+.bg-h:hover {
+    opacity: .95 !important;
+}
+
+.badge {
+    z-index: 9;
+}
+
+/* Footer */
+.link-footer {
+    font-size: 30px;
+}
+
+/* Diseño responsive */
+@media (max-width: 450px) {
+    .titulo {
+        font-size: 35px;
+    }
+}
